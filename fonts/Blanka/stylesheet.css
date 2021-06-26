@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Blanka';
+    src: url('Blanka-Regular.eot');
+    src: url('Blanka-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Blanka-Regular.woff2') format('woff2'),
+        url('Blanka-Regular.woff') format('woff'),
+        url('Blanka-Regular.ttf') format('truetype'),
+        url('Blanka-Regular.svg#Blanka-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

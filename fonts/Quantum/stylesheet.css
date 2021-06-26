@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Quantum';
+    src: url('QuantumRegular.eot');
+    src: url('QuantumRegular.eot?#iefix') format('embedded-opentype'),
+        url('QuantumRegular.woff2') format('woff2'),
+        url('QuantumRegular.woff') format('woff'),
+        url('QuantumRegular.ttf') format('truetype'),
+        url('QuantumRegular.svg#QuantumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

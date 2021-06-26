@@ -1,0 +1,290 @@
+.body-class {
+    box-sizing: border-box;
+    background: hsla(265, 53%, 29%, 1);
+
+    background: linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.warning {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-image: url('../images/icons8-box-important.gif'); 
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.jumbo {
+    background: rgba(58, 50, 50, 0.5);
+    padding: 25px 0px;
+}
+
+.jumbo-text {
+    color:seashell;
+    font-family: Quantum;
+    font-size: 75px;
+}
+
+@font-face {
+    font-family: 'Blanka';
+    src: url('../fonts/Blanka/Blanka-Regular.eot');
+    src: url('../fonts/Blanka/Blanka-Regular.eot') format('embedded-opentype'),
+        url('../fonts/Blanka/Blanka-Regular.woff2') format('woff2'),
+        url('../fonts/Blanka/Blanka-Regular.woff') format('woff'),
+        url('../fonts/Blanka/Blanka-Regular.ttf') format('truetype'),
+        url('../fonts/Blanka/Blanka-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quantum';
+    src: url('../fonts/Quantum/QuantumRegular.eot');
+    src: url('../fonts/Quantum/QuantumRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Quantum/QuantumRegular.woff2') format('woff2'),
+        url('../fonts/Quantum/QuantumRegular.woff') format('woff'),
+        url('../fonts/Quantum/QuantumRegular.ttf') format('truetype'),
+        url('../fonts/Quantum/QuantumRegular.svg#QuantumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h5, h3{
+    font-family: Quantum;
+    color: seashell;
+}
+
+.tech-intro {
+   padding-left: 1vw;
+   padding-right: 1vw;
+   margin: 2vw;
+
+}
+
+.tech-header {
+    color:darkolivegreen;
+}
+
+.tech-sub {
+    color: #f8edeb;
+}
+
+.main-stack {
+    box-sizing: border-box;
+    
+}
+
+.mern-stack {
+    box-sizing: border-box;
+    background-color: rgba(175, 134, 118, 0.3 );
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    border: 1px solid rgba(175, 134, 118, 0.3 );
+    border-radius: 25px;
+}
+
+.custom-row {
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 25px;
+}
+
+.custom-col-port {
+    box-sizing: border-box;
+    height: 15rem;
+    margin: 2rem;
+    border:10px solid #e34c26;
+    border-radius: 25px;
+    background-image: url('../images/projects/html.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 15px;
+
+}
+
+.custom-col-python1 {
+    box-sizing: border-box;
+    height: 15rem;
+    margin: 2rem;
+    border:10px solid cornsilk;
+    border-radius: 25px;
+    background-image: url('../images/projects/python-1.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 15px;
+
+}
+
+.custom-col-python2 {
+    box-sizing: border-box;
+    height: 15rem;
+    margin: 2rem;
+    border:10px solid cornsilk;
+    border-radius: 25px;
+    background-image: url('../images/projects/python-2.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 15px;
+
+}
+
+.custom-col-flutter {
+    box-sizing: border-box;
+    height: 15rem;
+    margin: 2rem;
+    border:10px solid cornsilk;
+    border-radius: 25px;
+    background-image: url('../images/projects/python-2.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 15px;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.lang-btn {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(red, green, blue, 1 );
+}
+
+.flutter-btn {
+    background-image: url('../images/flutter.png');
+    background-size: cover;
+}
+
+.bootstrap-btn {
+    background-image: url('../images/Bootstrap.png');
+    background-size: cover;
+}
+
+.html5-btn {
+    background-image: url('../images/html5.png');
+    background-size: cover;
+}
+
+.python-btn {
+    background-image: url('../images/python.png');
+    background-size: cover;
+}
+
+.css-btn {
+    background-image: url('../images/CSS.png');
+    background-size: cover;
+}
+
+.nav_image {
+    position: -5px -5px;
+}
+
+.tech-contain {
+    background-clip: content-box;
+}   
+
+
+.lang-div {
+    background-color: rgba(187, 144, 144, 0.3);
+    border: 10px solid rgba(187, 144, 144, 0.1);
+    border-radius: 30px;
+    margin: 0px 0px;
+    box-shadow: 9px 10px 5px rgba(187, 144, 144, 0.3);
+}
+
+.lang-pad {
+    padding: 40px 10px 60px 10px;
+}
+
+.footer {
+    margin-bottom: 0%;
+    padding: 15px;
+    background-color: rgba(187, 144, 144, 0.3);
+
+}
+
+h6 {
+    color: seashell;
+}
+
+.quick-links {
+    padding: 10px;
+}
+
+.upper-div {
+    position: absolute;
+    bottom: 0%;
+    background-color:lightcoral;
+    border: 1px solid blanchedalmond;
+    border-radius: 5px;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.project-name {
+    color:ivory;
+    font-family: Haettenschweiler, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.abs-button {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: -25px -25px;
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.custom-nav {
+    position: -webkit-sticky;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin: 5px;
+    padding: 0px 15px;
+}
+
+.nav-align {
+    position: relative;
+}
+
+.custom_btn {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    background-position: center;
+}
+
+.brand-btn {
+    background-color: rgba(175, 134, 118, 0.1 );
+}
+
+.toast-cstm {
+    position: fixed;
+    top: 0; 
+    right: 0;
+    margin-top: 25px;
+    margin-right: 25px;
+}
