@@ -1,0 +1,147 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+    background-image: url('ImageAssets/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url(Cursor/cursor.cur), auto;
+}
+
+#parent-div
+{
+    padding: 1em;
+    /* background-color: brown; */
+}
+.second-div{
+    height: 80%;
+    /* background-color: blue; */
+    margin-top: 2em;
+}
+.tabber{
+    padding: 1.4em 0;
+    margin: 0.5em 0em;
+}
+.footer{
+    /* background-color: forestgreen; */
+    margin: 1em;
+    padding-top: 0.5em;
+}
+/* style="background-color:*/
+.left1, .left2{
+    padding: 1em;
+}
+.repotab{
+    margin: 0.5em;
+    padding: 0.8em;
+    background-color: rgba(0, 210, 209, 0.2);
+    border-style: solid;
+    border-width: 0em 0em 0em 1em;
+    border-color: #8fbc8f;
+    border-radius: 1em;
+}
+
+/* font-family: 'Quicksand', sans-serif; */
+
+.brand-tag{
+    color: #f0f8ff;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.repo-text{
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav-links{
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+}
+.apk-col{
+    margin: 0.5 em;
+    border: 5px solid red;
+    border-radius: 2em;
+}
+.custom-row{
+    display: flex;
+    justify-content: space-between;
+}
+.custom-col{
+    margin: 0.25 0em;
+    padding: 1em;
+}
+/* #col1{
+    background-color: darksalmon;
+}
+#col2{
+    background-color: gold;
+}
+#col3{
+    background-color: indigo;
+}
+#col4{
+    background-color:indianred;
+}
+#col5{
+    background-color: lemonchiffon;
+}
+#col6{
+    background-color: khaki;
+}
+#col7{
+    background-color: aqua;
+}
+#col8{
+    background-color: lightsalmon;
+} */
+#col1, #col2, #col3, #col4, #col5, #col6, #col7, #col8{
+    text-align: center;
+    justify-content: center;
+    border-radius: 2em;
+}
+
+.imgcard{
+    background-color: deeppink;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+#Github:hover, #Design:hover, #Apps:hover, #Resume:hover{
+    cursor: url(Cursor/cursor-hover.cur), auto;
+    background-color:rgba(127, 255, 212, 0.3);
+}
+
+.link-btn:hover{
+    cursor: url(Cursor/cursor-hover.cur), auto;
+}
+
+.tab-button{
+    border-radius: 3em; 
+    border: 0.1px;
+    background-color: rgba(250, 235, 215, 0);
+}
+
+.tab-active{
+    border-radius: 3em; 
+    border: 0.1px;
+    background-color:rgba(127, 255, 212, 0.5);
+}
+
+.tab_content{
+    display: none;
+}
+
+.tab-content-active{
+    display: block;
+}
+
+.notif-class{
+    position: fixed;
+    padding: 2em;
+    width: 24em;
+    top: calc(50% - 4em);
+    left: calc(50% - 12em);
+    background-color: rgba(38, 36, 33, 0.8);
+    border-radius: 1em;
+}
