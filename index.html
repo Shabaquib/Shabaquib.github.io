@@ -54,7 +54,7 @@
     <div class="container-fluid" id="parent-div">
         <div class="row container-fluid">
             <div class="col-8">
-                <p class="brand-tag">Ahsan Aquib Raushan</p>
+                <p id="brand" class="brand-tag" ondblclick="some1function()">Ahsan Aquib Raushan</p>
             </div>
             <div class="repo-text text-center notif-class">
                 This Website is still in development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
@@ -537,7 +537,7 @@
     <div id="MobileContainerFixed" style="height: 100%;" class="container-fluid">
         <div class="col">
             <div class="row-9 text-center">
-                <p id="brand-name">Ahsan Aquib Raushan</p>
+                <p id="brand2" onclick="some2function()">Ahsan Aquib Raushan</p>
             </div>
 
             <div style="font-size: 200%;" class="font text-center mobile-notif-class">
@@ -981,6 +981,28 @@
         document.addEventListener("DOMContentLoaded", () => {
             setupTabs();
         });
+
+        function some1function(){
+            var text = document.getElementById('brand').innerText;
+            console.log(text);
+
+            if (text == "Ahsan Aquib Raushan") {
+                document.getElementById('brand').innerText = "I LOVE M&M";
+            } else {
+                document.getElementById('brand').innerText = "Ahsan Aquib Raushan";
+            }
+        }
+
+        function some2function(){
+            var text = document.getElementById('brand2').innerText;
+            console.log(text);
+
+            if (text == "Ahsan Aquib Raushan") {
+                document.getElementById('brand2').innerText = "I LOVE M&M";
+            } else {
+                document.getElementById('brand2').innerText = "Ahsan Aquib Raushan";
+            }
+        }
 
 
     </script>
