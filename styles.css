@@ -1,12 +1,26 @@
-html, body
-{
+
+@media screen and (min-width: 1223px) {
+    html, body{
     height: 100%;
     width: 100%;
     background-image: url('ImageAssets/Background.png');
     background-repeat: no-repeat;
     background-size: cover;
     cursor: url(Cursor/cursor.cur), auto;
+    }
+
 }
+
+@media screen and (max-width: 1200px) {
+    html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url('ImageAssets/Background-mobile.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    }
+}
+
 
 #parent-div
 {
@@ -16,7 +30,7 @@ html, body
 .second-div{
     height: 80%;
     /* background-color: blue; */
-    margin-top: 2em;
+    margin-top: 0.5em;
 }
 .tabber{
     padding: 1.4em 0;
