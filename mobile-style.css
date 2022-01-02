@@ -1,0 +1,42 @@
+.font{
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+}
+
+#Home-tab, #Blog-tab, #Resource-tab, #Download-tab{
+    font-size: 00.5em;
+}
+
+
+#brand-name{
+    margin: 1em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 450%;
+    color: aliceblue;
+}
+
+.mobile-notif-class{
+    position: fixed;
+    padding: 2em;
+    width: 24em;
+    top: calc(50% - 4em);
+    left: calc(50% - 12em);
+    background-color: rgba(38, 36, 33, 1);
+    border-radius: 1em;
+}
+
+.Mobile-tab-button{
+    color: #faebd74d;
+}
+
+.Mobile-tab-active{
+    color: #faead6;
+}
+
+.Mobile-tab-content{
+    display: none;
+}
+
+.Mobile-content-active{
+    display: block;
+}
