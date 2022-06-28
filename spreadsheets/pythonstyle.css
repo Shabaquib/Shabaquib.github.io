@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #ffba08 #264653;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #264653;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+}
+
+
+/*DESKTOP: SHOW*/
+@media screen and (min-width: 1000px) {
+    .project-banner {
+        width: 25vw;
+        height: 15vw;
+        border-radius: 25px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+/*MOBILE: SHOW*/
+@media screen and (max-width: 999px) {
+    .project-banner {
+        width:70vw;
+        height: 20vh;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../ImageAssets/profile.jpg');
+    }
+}
+
+#python-project-1 {
+    background-image: url('../ImageAssets/mobile.jpeg');
+}
+
+#python-project-2 {
+    background-image: url('../ImageAssets/zlibrary.png');
+}

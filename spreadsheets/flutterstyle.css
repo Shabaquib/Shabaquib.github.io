@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #ffba08 #264653;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #264653;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+* {
+    font-family: Quicksand, sans-serif;
+}
+
+#Experience-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    text-align: center;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-column-icon {
+    color: aqua;
+}
+
+/*DESKTOP: SHOW*/
+@media screen and (min-width: 1000px) {
+    html {
+        background-image: url('../ImageAssets/cool-background.png');
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #Experience-title {
+        border-bottom: 2px solid aqua;
+    }
+
+    #Experience-title #title-desktop {
+        display: block;
+        font-size: 8vh;
+        font-weight: 500;
+    }
+
+    #title-mobile {
+        display: none;
+    }
+
+    .project-group {
+        width: 90vw;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: aqua;
+    }
+
+    .project-first-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .project-banner {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project-group-description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 2vw;
+    }
+
+    .project-group-description #title {
+        font-size: 5vh;
+        font-weight: 700;
+    }
+
+    .project-group-description #subtitle {
+        font-size: 3vh;
+        font-weight: 500;
+    }
+
+    .project-second-section {
+        width: 30vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .link-column-icon {
+        width: 8vh;
+        height: 8vh;
+    }
+
+    .link-column-title {
+        margin-top: 2vh;
+        text-align: center;
+    }
+}
+
+/*MOBILE: SHOW*/
+@media screen and (max-width: 999px) {
+    html {
+        background-color: dimgray;
+        background-image: url('../ImageAssets/cool-background-mobile.png');
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #Experience-title #title-mobile {
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    #title-desktop {
+        display: none;
+    }
+
+    .project-group {
+        width: 90vw;
+        margin-top: 8vh;
+        padding-bottom: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aqua;
+    }
+
+    .project-group-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-first-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-banner {
+        width: 13vh;
+        height: 13vh;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../ImageAssets/profile.jpg');
+    }
+
+    .project-group-description #title {
+        margin-top: 2vh;
+        font-size: 7vw;
+        font-weight: 500;
+    }
+
+    .project-group-description #subtitle {
+        margin-bottom: 2vh;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .project-second-section {
+        width: 75vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .link-column-icon {
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .link-column-title {
+        margin-top: 1vh;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+}
+
+#banner-flutter-1 {
+    background-image: url('../ImageAssets/weather\ app\ logo.png');
+}
+#banner-flutter-2, #banner-flutter-3 {
+    background-image: url('../ImageAssets/Design\ Manual\ logo.png');
+}

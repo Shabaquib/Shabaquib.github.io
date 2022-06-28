@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #ffba08 #264653;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #264653;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+}
+
+
+
+/*DESKTOP: SHOW*/
+@media screen and (min-width: 1000px) {
+    .project-banner {
+        width: 22vw;
+        height: 12vw;
+        border-radius: 10%;
+        background-size: cover;
+        background-position: center;
+        
+    }
+}
+
+
+/*MOBILE: SHOW*/
+@media screen and (max-width: 999px) {
+    .project-banner {
+        width: 60vw;
+        height: 15vh;
+        border-radius: 10%;
+        background-size: cover;
+        background-position: center;
+        background-image: url('../ImageAssets/profile.jpg');
+    }
+}
+
+#project-figma-1 {
+    background-image: url('../ImageAssets/Weather-App.png');
+}
+
+#project-figma-2 {
+    background-image: url('../ImageAssets/The\ Design\ Manual\ App.png');
+}
+
+#project-figma-3 {
+    background-image: url('../ImageAssets/Tasks\ App.png');
+}
