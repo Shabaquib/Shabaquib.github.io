@@ -12,7 +12,7 @@
 
 <body>
 
-    <div class="copy-notif">
+<!--     <div class="copy-notif">
         <div class="icon">
             <span style="display: block; width: 100%; height: 100%;color: goldenrod;" class="iconify"
                 data-icon="bi:check-circle-fill"></span>
@@ -20,7 +20,7 @@
         <div class="text">
             Copied to clipboard
         </div>
-    </div>
+    </div> -->
 
     <div id="Intro">
         <div id="Intro-name">Ahsan Aquib Raushan</div>
@@ -352,18 +352,18 @@
     <!--Javascript-->
     <script>
 
-        $(document).ready(function () {
-            setTimeout(function () {
-                $(".copy-notif").fadeOut(0);
-            }, 0);
+//         $(document).ready(function () {
+//             setTimeout(function () {
+//                 $(".copy-notif").fadeOut(0);
+//             }, 0);
 
-            $('.content-group-item-button-copy').click(function () {
-                $('.copy-notif').show();
-                setTimeout(function () {
-                    $('.copy-notif').fadeOut(1000);
-                }, 1000);
-            });
-        });
+//             $('.content-group-item-button-copy').click(function () {
+//                 $('.copy-notif').show();
+//                 setTimeout(function () {
+//                     $('.copy-notif').fadeOut(1000);
+//                 }, 1000);
+//             });
+//         });
 
         function copier(arg) {
             navigator.clipboard.writeText(arg);
