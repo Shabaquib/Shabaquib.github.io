@@ -77,7 +77,7 @@ html::-webkit-scrollbar-thumb {
 @media screen and (min-width: 1000px) {
 
     html {
-        background-image: url('../ImageAssets/cool-background.png');
+        background-image: url('../ImageAssets/Background.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -286,7 +286,7 @@ html::-webkit-scrollbar-thumb {
 
     html {
         background-color: dimgray;
-        background-image: url('../ImageAssets/cool-background-mobile.png');
+        background-image: url('../ImageAssets/Background-mobile.jpg');
         /* background-repeat: no-repeat; */
         background-size: contain;
         background-attachment: fixed;
