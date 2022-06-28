@@ -42,7 +42,6 @@ html::-webkit-scrollbar-thumb {
         border-radius: 10%;
         background-size: cover;
         background-position: center;
-        background-image: url('../ImageAssets/profile.jpg');
     }
 }
 
