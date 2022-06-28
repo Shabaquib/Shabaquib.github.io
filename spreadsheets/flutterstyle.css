@@ -46,7 +46,7 @@ html::-webkit-scrollbar-thumb {
 /*DESKTOP: SHOW*/
 @media screen and (min-width: 1000px) {
     html {
-        background-image: url('../ImageAssets/cool-background.png');
+        background-image: url('../ImageAssets/Background.png');
         background-repeat:  no-repeat;
         background-attachment: fixed;
         background-position: center;
@@ -133,7 +133,7 @@ html::-webkit-scrollbar-thumb {
 @media screen and (max-width: 999px) {
     html {
         background-color: dimgray;
-        background-image: url('../ImageAssets/cool-background-mobile.png');
+        background-image: url('../ImageAssets/Background-mobile.jpg');
         /* background-repeat: no-repeat; */
         background-size: cover;
         background-attachment: fixed;
