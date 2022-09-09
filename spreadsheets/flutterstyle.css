@@ -214,8 +214,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 #banner-flutter-1 {
+    border: 2px solid white;
     background-image: url('../ImageAssets/weather\ app\ logo.png');
 }
-#banner-flutter-2, #banner-flutter-3 {
+#banner-flutter-2 {
+    border: 2px solid white;
     background-image: url('../ImageAssets/Design\ Manual\ logo.png');
+}
+#banner-flutter-3 {
+    border: 2px solid white;
+    background-image: url('../ImageAssets/fire-logs.png');
 }
