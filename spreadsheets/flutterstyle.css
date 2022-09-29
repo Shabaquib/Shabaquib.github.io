@@ -110,6 +110,11 @@ html::-webkit-scrollbar-thumb {
         font-size: 3vh;
         font-weight: 500;
     }
+    
+    .project-group-description #subtitle-small {
+        font-size: 2vh;
+        font-weight: 500;
+    }
 
     .project-second-section {
         width: 30vw;
@@ -190,6 +195,12 @@ html::-webkit-scrollbar-thumb {
 
     .project-group-description #subtitle {
         margin-bottom: 2vh;
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+    .project-group-description #subtitle-small {
+        margin-bottom: 1.5vh;
         font-size: 4vw;
         text-align: center;
     }
