@@ -241,3 +241,8 @@ html::-webkit-scrollbar-thumb {
     border: 2px solid white;
     background-image: url('../ImageAssets/hive-logs.png');
 }
+
+#banner-flutter-5 {
+    border: 2px solid white;
+    background-image: url('../ImageAssets/manual.png');
+}
